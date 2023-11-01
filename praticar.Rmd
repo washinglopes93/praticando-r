@@ -55,7 +55,33 @@ library(e1071)
 #para descarregar
 detach("package:e1071")
 #para remover o pacote
-remove.packages("e1071")
+```
+
+
+```{r}
+#as declarações de variavel ocorre de forma implicita, ou seja, você não precisa dizer o tipo da variavel
+x = 10
+#para saber qual é o tipo da variavel se o seguinte comando:
+class(x)
+#Declarando um tipo inteiro:
+y = 10L
+#Declarando um tipo lógico
+z = TRUE
+z = FALSE
+z = T
+z = F
+#Declatando tipo texto
+text = "texto"
+text = 'texto'
+#Fazendo operações númericas
+op = (1+1) * 2
+#Fazendo um teste lógico
+maior = 1
+menor = 2
+menor
+maior
+logicona = maior > menor
+logicona
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
