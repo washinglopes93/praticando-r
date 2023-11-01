@@ -165,8 +165,22 @@ head(iris)
 ```{r}
 #Na janela de ajuda do R mostra informações. Então se digitarmos help(nome da função) ele vai mostrar sobre aquela função. Como no exemplo a seguir
 help("iris")
-#Outra forma de conseguir ajuda no R é escrever a função e apertar f1
-head(iris)
+```
+
+
+```{r}
+#Head and Tail
+#Head: retorna os primeiros registros de um conjunto de dados ;
+#Tail: retorna os últimos registros de um conjunto;
+#Como exemlo utilizamos um dataframe chamado:
+esoph
+#Então por padrão o head traz as 6 primeiras linhas desse dataframe, contruímos o seguinte código:
+head(esoph)
+#Então da mesma maneira para visualizar os últimos registros usamos o seguinte código:
+tail(esoph)
+#Para definir a quantidade de registro você precisa definir o parâmetro N seegue. Onde n recebe um valor da quantidade que você deseja mostrar de registro. Então o código ficaria assim:
+head(esoph, n=10)
+tail(esoph, n=10)
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
