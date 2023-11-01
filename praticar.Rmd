@@ -159,7 +159,14 @@ head(x = iris , n = 2)
 head(iris)
 #Aqui podemos ver que temos apenas um parâmetro que no caso dessa função ele só precisa de uma entrada.
 #Mas também existe funções que seus parâmetro caso não preenchidos assumem valores padrões.
-#Obs: Tem alguns parâmetros que são obrigatórios a inserção de valor e outros parâmetros são opcionais.
+```
+
+
+```{r}
+#Na janela de ajuda do R mostra informações. Então se digitarmos help(nome da função) ele vai mostrar sobre aquela função. Como no exemplo a seguir
+help("iris")
+#Outra forma de conseguir ajuda no R é escrever a função e apertar f1
+head(iris)
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
