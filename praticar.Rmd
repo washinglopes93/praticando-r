@@ -55,6 +55,7 @@ library(e1071)
 #para descarregar
 detach("package:e1071")
 #para remover o pacote
+remove.packages(e1071)
 ```
 
 
@@ -81,7 +82,32 @@ menor = 2
 menor
 maior
 logicona = maior > menor
-logicona
+```
+
+
+```{r}
+#Estruturas de dados
+#Vetores: são variaveis de 1 dimensão. Contém um único tipo. Ocorre de forma implicita a declaração do seu tipo. E no vetor todos os dados tem que ser do mesmo tipo. Como declarar:
+listao = c(1,2,3,4,5,6,7,8,9,10)
+#PAra acessar a posição de um valor precisa colocar entre colchetes o núemro da sua posição:
+listao[5]
+#Também pode alterar o valor daquela posição atribuindo um novo valor
+listao[5] = 10
+listao
+```
+
+
+```{r}
+#Matriz: é uma variável de 2 dimensões. Tem qe apenas um tipo de dados comando para identificar os nomes da linhas e colunas.
+#Identificar o nome das colunas
+colnames()
+#identificar o nome da linha
+row.names()
+#O r permiti acessar as informaç~es da matriz usando entre colchete a célula, linha ou coluna que deseja acessar
+#Para acessar somente a colunas a virgula e deixar a posição a direita da virgula:
+VADeaths[,1]
+#Para acessar somente as linhas tem que colocar a posição a esquerda da virgula
+VADeaths[1,]
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
