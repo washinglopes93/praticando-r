@@ -1,0 +1,65 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+```{r}
+x = c(1,2,3,4,5,6)
+x
+x[1]
+x[3]
+x[2] = 3
+x[1] = 3
+```
+
+
+```{r}
+VTextos = c("Ola", "testando", "textos", "com", "vetores")
+VTextos
+class(VTextos)
+```
+
+
+```{r}
+VADeaths
+```
+
+
+```{r}
+longley["Unemployed"]
+```
+```{r}
+ability.cov
+ability.cov$cov
+class(ability.cov$cov)
+class(ability.cov$center)
+x = c(1,2,3)
+x[2]
+```
+
+
+```{r}
+#Para fazer a instalação de pacotes tem que digitar o seguinte comando:
+install.packages("e1071")
+#onde entre aspas duplas tem que estar escrito o nome do pacote que você quer instalar
+#Instalação de pacote só precisa ser feita uma vez porém o comando de carregar o pacote precisa er feito sempre
+#para carregar
+library(e1071)
+#para descarregar
+detach("package:e1071")
+#para remover o pacote
+remove.packages("e1071")
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
