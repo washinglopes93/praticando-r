@@ -100,14 +100,43 @@ listao
 ```{r}
 #Matriz: é uma variável de 2 dimensões. Tem qe apenas um tipo de dados comando para identificar os nomes da linhas e colunas.
 #Identificar o nome das colunas
-colnames()
+#colnames()
 #identificar o nome da linha
-row.names()
+#row.names()
 #O r permiti acessar as informaç~es da matriz usando entre colchete a célula, linha ou coluna que deseja acessar
 #Para acessar somente a colunas a virgula e deixar a posição a direita da virgula:
 VADeaths[,1]
 #Para acessar somente as linhas tem que colocar a posição a esquerda da virgula
 VADeaths[1,]
+#Definindo intervalos com dois ponto ':'
+#Onde quer dizer que vai pegar informações de um ponto até outro de uma linha ou coluna
+#Aqui estamos dizendo que queremos acessar informações da linha 1 ate 3 sem definir as colunas
+VADeaths[1:3,]
+```
+
+
+```{r}
+#Dataframe
+#Ele se asemelha a um banco de dados. O diferente. A consulta e o tratamento das informaçoes é a mesma que a matrix
+#Um exemplo dessa estrutura e o longley.
+#PAra trazer os dados de uma coluna você utiliza o nome do dataframe depois cifrão depois o nome da coluna 
+longley$Unemployed
+#Outra forma de trazer essas informações de tabela é em vez de linha é digitar o nome do dataframe depois digitar o nome das coluna entre aspas e colchetes
+```
+
+
+```{r}
+#listas
+#Permite criar posições com tipos de dados difereneste ou com estruturas de dados diferentes.
+# Tem como fazer acesso a posições dessa lista
+#TEm como verificar qual tipo esta ocupando aquela posição
+```
+
+
+```{r}
+#Fatores
+#Não foi explicado muito no curso
+#Variavel categorica podem receber uma ordem de grandeza
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
