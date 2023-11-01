@@ -136,7 +136,30 @@ longley$Unemployed
 ```{r}
 #Fatores
 #Não foi explicado muito no curso
-#Variavel categorica podem receber uma ordem de grandeza
+```
+
+
+```{r}
+#Funções
+#Não ensinou como cria uma função.Apenas como ela funciona. 
+#Uma função executa alguma coisa podendo retornar alguma coisa ou não. E o que está entre os prênteses são os parâmetro de entrada para aquela função trabalhe com esse valor.
+#O que acontece se você chama a função sem parênteses?
+#Ela trás o código da função. Onde tem a lógica e a chamada da função
+#Exemplo de chamada de uma função.
+head(x = iris , n = 2)
+#Onde
+#head: é o nome da função;
+#() é onde que fica os parâmetros da função
+#x : é um dos parâmetros;
+#= : atribuição para parâmetros;
+#iris é o valor que está indo para o primeiro parâmetro para essa função de exemplo
+#, : a virgula é a que separa os parâmetros
+#n : e por fim 'n' é o segundo parâmetro desta funç~]ao de exemplo onde está recebendo o seguinto valor representado por = 2.
+#Outra forma de chamar ma função:
+head(iris)
+#Aqui podemos ver que temos apenas um parâmetro que no caso dessa função ele só precisa de uma entrada.
+#Mas também existe funções que seus parâmetro caso não preenchidos assumem valores padrões.
+#Obs: Tem alguns parâmetros que são obrigatórios a inserção de valor e outros parâmetros são opcionais.
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
