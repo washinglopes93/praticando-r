@@ -180,7 +180,52 @@ head(esoph)
 tail(esoph)
 #Para definir a quantidade de registro você precisa definir o parâmetro N seegue. Onde n recebe um valor da quantidade que você deseja mostrar de registro. Então o código ficaria assim:
 head(esoph, n=10)
-tail(esoph, n=10)
+```
+
+
+```{r}
+dim(esoph)
+dim(esoph)[1]
+help("dim")
+#Dimensões usa o comando dim
+#Ele retorna o números de linhas e colunas. As ordens de mostrar é sempre na ordem de linhas e depois as colunas.
+```
+
+
+```{r}
+length(islands)
+help("length")
+```
+
+
+```{r}
+colnames(esoph)
+help("colnames")
+#Ver os nome das colunas: colnames(esoph)
+#help
+#Row and Colunm Names
+```
+
+
+```{r}
+rownames(esoph)
+help("rownames")
+#Retornas os nomes das linhas
+```
+
+```{r}
+summary(esoph)
+help("summary")
+#Retorna resumo de uma estatística de conjunto de dados
+```
+
+```{r}
+x <- file.choose()
+x
+help("file.choose")
+#Abre uma caixa de dialogo permitindo selecionar um arquivo e retorna o caminho desse arquivo podendo assim jogar esse caminho para uma
+#variável.
+
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
