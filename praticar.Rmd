@@ -259,6 +259,8 @@ print(i)
 #print(i) - conjunto de comando que sera executando em repetição.
 ```
 ```{r}
+
+
 a = 1
 while (a <= 10){
   print(a)
@@ -272,6 +274,21 @@ while (a <= 10){
 #print (a) - o comando que sera executado nesse caso era digitar o valor da variavel a
 # a = a+1 - aqui estamos aumentado o valor da nossa variavel
 ```
+```{r}
+parouimpar <- function(x){
+  return(ifelse(x%%2 == 0, "Par", "Impar"))
+}
+
+parouimpar(2)
+parouimpar(5)
+
+#Criação de uma função - segundo a explicação do instrutor do curso a função é usada para quando vc usa um conjunto de código com muita frequência.
+#Explicando o código
+#parouimpar - aqui é o nome da função
+#<- function(x) aqui estamos atribuindo a função e o parâmetro desta função
+#return(ifelse(x%%2 == 0, "Par", "Impar")) - aqui estamos retornando o resultado de uma condição em relação a parâmetro de entrada.
+```
+
 
 
 
