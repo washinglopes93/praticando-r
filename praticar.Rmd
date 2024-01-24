@@ -225,8 +225,40 @@ x
 help("file.choose")
 #Abre uma caixa de dialogo permitindo selecionar um arquivo e retorna o caminho desse arquivo podendo assim jogar esse caminho para uma
 #variável.
-
 ```
+
+
+```{r}
+#Uso do IF
+
+#Foi criado duas variáveis onde foi atribuidas valores distintos para ambas. E usamos o If para executar um teste logico sendo assim ficamos:
+
+a = 10 #atribiundo um valor para a variável
+
+b = 20
+
+if ( a < b ){#iniciando a condição lógica
+
+print ( " Verdadeiro ")  #se a condição for verdadeira ele ira executar esse  bloco de comando
+
+}else{
+
+print ( " Falso " )
+  } #se a condição for falsa ele ira executar esse bloco de comando.
+```
+```{r}
+for (i in 1:4) {
+print(i)  
+}
+
+#explicando comando
+#for - iniciando o laço de repetição for
+#i - variável que será percorrida
+#in - comando para percorrer pela variável
+#1:10 - conjunto de quanto será repetido.
+#print(i) - conjunto de comando que sera executando em repetição.
+```
+
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
 
