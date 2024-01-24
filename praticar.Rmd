@@ -258,6 +258,21 @@ print(i)
 #1:10 - conjunto de quanto será repetido.
 #print(i) - conjunto de comando que sera executando em repetição.
 ```
+```{r}
+a = 1
+while (a <= 10){
+  print(a)
+  a=a+1
+}
+
+#Laço While - Vai repetir a enquanto a condição logica for verdadeira. Acredito que o laço while não tem muito mistério porque le vai estar sempre executando o código quando a condição do seu parâmetro for verdadeira.
+#Explicando cada codigo
+# a = 1 - aqui a variável esta recebendo o valor 1
+# while ( a <=10 ) - aqui estamos definindo a condição para a repetição que só repete enquanto ela for verdadeira
+#print (a) - o comando que sera executado nesse caso era digitar o valor da variavel a
+# a = a+1 - aqui estamos aumentado o valor da nossa variavel
+```
+
 
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
