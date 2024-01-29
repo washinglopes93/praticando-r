@@ -288,6 +288,18 @@ parouimpar(5)
 #<- function(x) aqui estamos atribuindo a função e o parâmetro desta função
 #return(ifelse(x%%2 == 0, "Par", "Impar")) - aqui estamos retornando o resultado de uma condição em relação a parâmetro de entrada.
 ```
+```{r}
+# 1. Crie duas variáveis Ana e Paulo e atribua a elas valores de suas idades, sendo respectivamente 8 e 12 anos. As variáveis devem ser do tipo inteiro. Imprima no console "A menina é mais elha" ou "O menino é mais velho" como resultado
+
+ana = 8
+paulo = 12
+if (ana < paulo){
+  print("O menino é o mais velho")
+}else{
+    print("A menina é mais velha")
+}
+```
+
 
 
 
