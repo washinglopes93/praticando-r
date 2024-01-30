@@ -291,14 +291,25 @@ parouimpar(5)
 ```{r}
 # 1. Crie duas variáveis Ana e Paulo e atribua a elas valores de suas idades, sendo respectivamente 8 e 12 anos. As variáveis devem ser do tipo inteiro. Imprima no console "A menina é mais elha" ou "O menino é mais velho" como resultado
 
-ana = 8
-paulo = 12
+ana = 8L
+paulo = 12L
 if (ana < paulo){
   print("O menino é o mais velho")
 }else{
     print("A menina é mais velha")
 }
 ```
+```{r}
+#2. BOD é um objeto existente no R. Verifique qual a classe deste objeto.
+
+class (BOD)
+help("BOD")
+
+#Então nesse caso aqui usei class e usei o help para ter a descrição dele.
+#Class - Object Classes Description R possesses a simple generic function mechanism which can be used for an object-oriented style of programming. Method dispacht takes place based on the class of the first argument to the generic function.
+
+```
+
 
 
 
