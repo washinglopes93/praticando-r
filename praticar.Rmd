@@ -329,7 +329,22 @@ tail(women, n = 10)
 #Usei tail que foi ensinado na aula 30. Ajuda. Onde tail: retorna os últimos registros  de um conjunto.
 class(women)
 help("women")
+
 ```
+```{r}
+
+# Criei variaveis para guardarem os valores
+sepal = iris[50:100,"Sepal.Width"]
+petal = iris[50:100,"Petal.Length"]
+#print(sepal) aqui é para ver como sairia os valores
+#print(petal)
+
+#dei uma estuda a função plot
+plot(sepal, petal, type = "p", main = "Grafico de Iris" )
+
+
+```
+
 
 
 
