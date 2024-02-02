@@ -345,6 +345,18 @@ plot(sepal, petal, type = "p", main = "Grafico de Iris" )
 
 ```
 
+```{r}
+#6. Crie dois vetores de tamanha iguais, some as posições equivalentes dos vetores e imprima o resultado.
+v1 = c(1,2,3,4,5)
+v2 = c(1,2,3,4,5)
+v3 = 0
+for (cont in 1:5){
+  v3[cont] = v1[cont] + v2[cont]
+  print(v3[cont])
+}
+
+```
+
 
 
 
@@ -358,3 +370,4 @@ Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by press
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
 The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+ 
