@@ -356,6 +356,20 @@ for (cont in 1:5){
 }
 
 ```
+```{r}
+#7. Imprima o número de linhas, de coluns, nomes das linhas e nome das colunas do conjunto de dados CO2.
+
+rownames(CO2)
+
+colnames(CO2)
+
+print(CO2)
+
+help("rownames")
+help("colnames")
+
+#Row and Column Names : Retrieve or set the row or column names of a matrix-like object.
+```
 
 
 
